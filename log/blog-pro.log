@@ -1,0 +1,5 @@
+2020-02-03 19:33:44.892  INFO 2804 --- [restartedMain] cn.xhb.blog.BlogApplication              : Starting BlogApplication on LAPTOP-57PS8PJD with PID 2804 (E:\Java_in_idea\blog\target\classes started by Lenovo in E:\Java_in_idea\blog)
+2020-02-03 19:33:44.900  INFO 2804 --- [restartedMain] cn.xhb.blog.BlogApplication              : The following profiles are active: pro
+2020-02-03 19:33:48.025  WARN 2804 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-03 19:33:48.276  WARN 2804 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-02-03 19:33:48.387  INFO 2804 --- [restartedMain] cn.xhb.blog.BlogApplication              : Started BlogApplication in 4.604 seconds (JVM running for 6.237)

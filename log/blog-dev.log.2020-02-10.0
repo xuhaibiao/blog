@@ -1,0 +1,22 @@
+2020-02-10 21:56:09.679  INFO 7052 --- [main] cn.xhb.blog.BlogApplicationTests         : Starting BlogApplicationTests on LAPTOP-57PS8PJD with PID 7052 (started by Lenovo in E:\Java_in_idea\blog)
+2020-02-10 21:56:09.687 DEBUG 7052 --- [main] cn.xhb.blog.BlogApplicationTests         : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-10 21:56:09.688  INFO 7052 --- [main] cn.xhb.blog.BlogApplicationTests         : The following profiles are active: dev
+2020-02-10 21:56:11.662  INFO 7052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-10 21:56:11.854  INFO 7052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169ms. Found 5 JPA repository interfaces.
+2020-02-10 21:56:13.021  INFO 7052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-10 21:56:13.765  INFO 7052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-10 21:56:14.024  INFO 7052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-10 21:56:14.466  INFO 7052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-10 21:56:15.169  INFO 7052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-10 21:56:16.370  INFO 7052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-10 21:56:16.542  INFO 7052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-10 21:56:19.323  INFO 7052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-10 21:56:19.357  INFO 7052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-10 21:56:21.811  WARN 7052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-10 21:56:22.352  INFO 7052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 21:56:22.618  INFO 7052 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-10 21:56:23.210  INFO 7052 --- [main] cn.xhb.blog.BlogApplicationTests         : Started BlogApplicationTests in 14.866 seconds (JVM running for 17.461)
+2020-02-10 21:56:23.500  INFO 7052 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-10 21:56:23.503  INFO 7052 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-10 21:56:23.506  INFO 7052 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-10 21:56:23.517  INFO 7052 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
