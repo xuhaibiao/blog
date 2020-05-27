@@ -1,12 +1,12 @@
 #生产环境
 server:
-  port: 8888
+  port: 80
 spring:
   datasource:
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&characterEncoding=utf-8
+    url: jdbc:mysql://47.100.23.55:3306/blog?serverTimezone=UTC&characterEncoding=utf-8
   jpa:
     hibernate:
       ddl-auto: none

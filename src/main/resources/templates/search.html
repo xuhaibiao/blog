@@ -32,7 +32,7 @@
         <div class="ui padded vertical segment m-padded-tb-large" th:each="blog : ${page.content}">
           <div class="ui mobile reversed stackable grid">
             <div class="eleven wide column">
-              <h3 class="ui header"><a th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black" th:text="${blog.title}"></a></h3>
+              <h3 class="ui header"><a th:href="@{/blog/{id}(id=${blog.id})}" target="_teal" class="m-black" th:text="${blog.title}"></a></h3>
               <p class="m-text" th:text="|${blog.description}......|">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
               <div class="ui grid">
                 <div class="eleven wide column">
@@ -50,13 +50,13 @@
                   </div>
                 </div>
                 <div class="right aligned five wide column">
-                  <a href="#" th:href="@{/types/{id}(id=${blog.type.id})}" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin" th:text="${blog.type.name}">认知升级</a>
+                  <a href="#" th:href="@{/types/{id}(id=${blog.type.id})}" target="_teal" class="ui teal basic label m-padded-tiny m-text-thin" th:text="${blog.type.name}">认知升级</a>
                 </div>
               </div>
             </div>
 
             <div class="five wide column">
-              <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
+              <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_teal">
                 <img src="https://unsplash.it/800/450?image=1005" th:src="@{${blog.firstPicture}}" alt="" class="ui rounded image">
               </a>
             </div>
